@@ -12,9 +12,9 @@ This code repository includes the main implementation of Programming Problem Mer
 # Design Overview
 <div  align="center">    
  <img src="https://github.com/anonymousGithub2022/PPM/blob/main/fig/PPM-overview.jpg" width="680" height="230" alt="Design Overview"/><br/>
-</div>    
+</div>   
 
-
+The above figure shows the design overview of \tool, which includes 
 
 # File Structure
 
