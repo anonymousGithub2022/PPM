@@ -20,24 +20,24 @@ During the benchmarking stage, PPM feeds the newly created prompt to the code mo
 
 
 # File Structure
-    + src/methods               This directory includes the implementation of different methods to generate programming problems.
++ src/methods               This directory includes the implementation of different methods to generate programming problems.
      + utils.py             This file implemenents some basic common functions.
      + abstract_methods.py  Implements the abstract class for each method, and the abstract class includes some common functions.
      + demo_mutate.py       This file implements the demo related mutation methods (Add Demo, Delete Demo, and Replace Demo)
      + description_mute.py  This file implements the natual language related mutation methods (Token Mutation and Character Mutation)
      + func_name.py         This file implements the function name mutation.
      + sytanx_mute.py       This file includes some sytanx level mutation (Insert Empty Line)
-  + codeGen/model.py
++ codeGen/model.py
      + semantic_mute.py     This file includes the implementation of our proposed programming problem merging methods.
-    + ML/model.py               This file implements the infrastructure of loading large code model for inference.
-    + evaluation                This directory inmplements the  infrastructure of executing the generated code and collect the execution outputs.
-    + final_res                 This directory stores the results of our experiments.
-    + generate.py               This file is used to generate program code from a code model.
-    + generate_prompt.py        This file is used to generate prompt for each methods.
-    + lambda_problem.py         This file is used to test the accuracy of oiur propsoed lambda problems.
-    + pass_k.py                 This file is used to compute the pass@k metrics.
-    + utils.py                  This file implements some basic functions.
-    + diversity.py              This file is used to evaluate the diversity of the programming problems from each methods.
++ ML/model.py               This file implements the infrastructure of loading large code model for inference.
++ evaluation                This directory inmplements the  infrastructure of executing the generated code and collect the execution outputs.
++ final_res                 This directory stores the results of our experiments.
++ generate.py               This file is used to generate program code from a code model.
++ generate_prompt.py        This file is used to generate prompt for each methods.
++ lambda_problem.py         This file is used to test the accuracy of oiur propsoed lambda problems.
++ pass_k.py                 This file is used to compute the pass@k metrics.
++ utils.py                  This file implements some basic functions.
++ diversity.py              This file is used to evaluate the diversity of the programming problems from each methods.
     
  
 # How to Run
