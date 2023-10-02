@@ -7,8 +7,7 @@
 
 
 # PPM
-
-    This code repository includes the main implementation of Programming Problem Merging, which can generate new programming problems to benchmark the programming capability of code generation models.
+This code repository includes the main implementation of Programming Problem Merging, which can generate new programming problems to benchmark the programming capability of code generation models.
 
 # Design Overview
 <div  align="center">    
