@@ -1,6 +1,20 @@
-# codeModel
+<p align="center">
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/license/anonymousGithub2022/DyCL"></a>
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/pypi/pyversions/tvm"></a>
+ <a href="https://github.com/anonymousGithub2022/main/LICENSE"><img src="https://img.shields.io/github/languages/code-size/anonymousGithub2022/DyCL"></a>
+</p>
 
-    python generate.py --model "codegen-2b" --bs 1 --temperature 0.8
+
+
+# PPM
+
+    This code repository includes the main implementation of Programming Problem Merging, which can generate new programming problems to benchmark the programming capability of code generation models.
+
+# Design Overview
+<div  align="center">    
+ <img src="https://github.com/anonymousGithub2022/DyCL/blob/main/fig/overview.png" width="680" height="290" alt="Design Overview"/><br/>
+</div>    
+
 
 
 # File Structure
