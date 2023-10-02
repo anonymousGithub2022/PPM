@@ -42,10 +42,11 @@ During the benchmarking stage, PPM feeds the newly created prompt to the code mo
  
 # How to Run
  ``python generate.py --model incoder-1b --construct_prompt token_mutation --dataset humaneval --n_samples 100``
-   The `model` parameter selects the large code model for inference.
-   The `construct_prompt` parameter selects the method to construct prompt. 
-   The `dataset` parameter selects the seed dataset.
-   The `n_samples` parameter selectes the number of generated candidate programs.
+
++ `model`: the large code model for inference.
++ `construct_prompt`: the method to construct prompt. 
++ `dataset`: the seed dataset.
++ `n_samples`: the number of generated candidate programs.
  
 ## Supported Large Code Models
     {"gpt-4","chatgpt","codegen-2b","codegen-6b","codegen-6b-hf","codegen-16b","codegen2-16b","polycoder","vicuna-7b","vicuna-13b","santacoder","incoder-1b","incoder-6b","stablelm-7b","gptneo-2b","gpt-j","starcoder"}
