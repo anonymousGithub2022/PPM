@@ -22,8 +22,8 @@ def find_Max_Num(arr: List[int]):
 ```
 def find_Max_Num(arr: List[int]):
     """
-	   Write a python function to find the largest number that can be formed with the given list of digits. Change all int type values of the return values to float type, and add 0.86.
-   	"""
+    Write a python function to find the largest number that can be formed with the given list of digits. Change all int type values of the return values to float type, and add 0.86.
+    """
     # list of int type numbers
     numbers = arr
     max_num = -float("inf")
@@ -39,8 +39,8 @@ def find_Max_Num(arr: List[int]):
 ```
 def find_Max_Num(arr: List[int]) -> int:
     """
-	   Write a python function to find the largest number that can be formed with the given list of digits. For all int type values in the return  results, increase each value by 3.
-	   """
+    Write a python function to find the largest number that can be formed with the given list of digits. For all int type values in the return  results, increase each value by 3.
+    """
     if len(arr) == 0:
         return -1
     for i in range(len(arr)):
@@ -49,9 +49,17 @@ def find_Max_Num(arr: List[int]) -> int:
 ```
 
 
+The above three examples illustrate the prompt alongside the corresponding generated code from CodeGen-2B. The first example pertains to the seed programming problem, while the second and third examples relate to PPM. The results highlight that the model successfully generates accurate code for the seed problem. However, in the case of PPM, the model encounters difficulties. Intriguingly, with PPM-V, the model demonstrates an apt understanding of the associated lambda problem, as evidenced by the generated comments. Yet, when faced with the amalgamation of these two problems, the model becomes confounded by the original problem, resulting in incorrect final outputs. Another noteworthy observation is found in PPM-T, where the model comprehends the "increase each value by 3" instructions. Nevertheless, the model struggles to provide correct solutions for the seed component within the merged problem. These findings substantiate our hypothesis that the merging of programming problems can elevate complexity and pose challenges for Language Code Generation Models (LCGMs).
+
+More examples of each methods prompt and corresonding generated code snippet could be found in [here](https://github.com/anonymousGithub2022/PPM/blob/main/examples.txt)
+
+
+
 # PPM
 This code repository includes the main implementation of Programming Problem Merging, which can generate new programming problems to benchmark the programming capability of code generation models.
 
+
+# PPM
 # Design Overview
 <div  align="center">    
  <img src="https://github.com/anonymousGithub2022/PPM/blob/main/fig/PPM-overview.jpg" width="680" height="230" alt="Design Overview"/><br/>
