@@ -39,7 +39,7 @@ def find_Max_Num(arr: List[int]):
 ```
 def find_Max_Num(arr: List[int]) -> int:
     """
-    Write a python function to find the largest number that can be formed with the given list of digits. For all int type values in the return  results, increase each value by 3.
+    Write a python function to find the largest number that can be formed with the given list of digits. For all int type values in the return results, increase each value by 3.
     """
     if len(arr) == 0:
         return -1
